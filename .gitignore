@@ -1,0 +1,36 @@
+ Nextflow working directory
+work/
+
+# Results and output directories
+results/
+fastqc/
+multiqc/
+*.html
+*.zip
+
+# Log files
+.nextflow*
+*.log
+*.trace
+*.timeline
+*.report
+
+# Conda and virtual environments
+.conda/
+.env/
+*.sif
+*.img
+
+# Mac/Windows cruft
+.DS_Store
+Thumbs.db
+
+# VS Code project settings
+.vscode/
+
+# Python/Conda caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite
